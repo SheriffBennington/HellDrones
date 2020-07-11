@@ -1,0 +1,55 @@
+<?Yml version="1.0" encoding="utf8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>HellUnitProduction</defName>
+    <label>Hell units</label>
+    <tab>AtlasAndroidsHellDroneExt</tab>
+    <description>Research into the development of Hell Units, extremely tough, strong and agile robots that are known throughout the worlds for their power.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>T4Androids</li>
+    </prerequisites>
+    <researchViewY>2</researchViewY>
+    <researchViewX>1</researchViewX>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>BscPowerClaws</defName>
+    <label>Basic power claws</label>
+    <tab>AtlasAndroidsHellDroneExt</tab>
+    <description>Research into how to develop converted android arm replacements that boast an impressively sharp set of retractable claws.</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>T2Replacements</li>
+    </prerequisites>
+    <researchViewY>2</researchViewY>
+    <researchViewX>2</researchViewX>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AdvPowerClaws</defName>
+    <label>Advanced power claws</label>
+    <tab>AtlasAndroidsHellDroneExt</tab>
+    <description>Developing further on the standard power claws, this research allows production of a plasma-infused version that only pose more danger to the opposer.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BscPowerClaws</li>
+    </prerequisites>
+    <researchViewY>2</researchViewY>
+    <researchViewX>3</researchViewX>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>OLuciPumpResearch</defName>
+    <label>Overcharged mechanite pumps</label>
+    <tab>AtlasAndroidsHellDroneExt</tab>
+    <description>Learn the secrets of advanced mechanite manipulation and discover how to produce the overcharged mechanite pump, a high power pump that comes at the cost of intense heat production.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>T2ReplacementsOrgans</li>
+    </prerequisites>
+    <researchViewY>2</researchViewY>
+    <researchViewX>4</researchViewX>
+  </ResearchProjectDef>
+</Defs>

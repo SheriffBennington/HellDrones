@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>HelldroneHiveMind</defName>
+    <commonality>0.7</commonality>
+    <degreeDatas>
+      <li>
+        <label>hive mind</label>
+        <description>{PAWN_nameDef} is interconnected with his fellow hellbots, forming a deep connection with every one of them.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

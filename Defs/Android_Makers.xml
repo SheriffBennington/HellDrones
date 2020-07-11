@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingCreatorBase">
+    <defName>HellUnitGeneratorAI</defName>
+    <label>Hell Unit</label>
+    <comps>
+      <li Class="MOARANDROIDS.SpawnerCompProperties_GenericSpawner">
+        <compClass>MOARANDROIDS.CompAndroidSpawnerGeneric</compClass>
+        <Pawnkind>AndroidHellUnit</Pawnkind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingCreatorBase">
+    <defName>FennecAndroidGeneratorAI</defName>
+    <label>FENNIC Unit</label>
+    <comps>
+      <li Class="MOARANDROIDS.SpawnerCompProperties_GenericSpawner">
+        <compClass>MOARANDROIDS.CompAndroidSpawnerGeneric</compClass>
+        <Pawnkind>AndroidFox</Pawnkind>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

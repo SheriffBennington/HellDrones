@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Added body parts -->
+  <HediffDef Name="AddedBodyPartBaseAndroidHD" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.7,0.5,0.5)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBaseAndroidHD">
+    <defName>OLuciferiumPump</defName>
+    <label>overcharged mechanite pump</label>
+    <labelNoun>an overcharged mechanite pump</labelNoun>
+    <spawnThingOnRemoved>OLuciferiumPump</spawnThingOnRemoved>
+    <comps>
+      <li Class="MOARANDROIDS.HediffCompProperties_RegenWoundsAdv">
+        <compClass>MOARANDROIDS.HediffComp_RegenWoundsAdv</compClass>
+        <Delay>1</Delay>
+        <HealingAmount>0.5</HealingAmount>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>+1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>+1</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>+0.5</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ComfyTemperatureMax>-100</ComfyTemperatureMax>
+          <ComfyTemperatureMin>+40</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>2.5</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBaseAndroidHD">
+    <defName>RPowerClaw</defName>
+    <label>robotic power claw</label>
+    <labelNoun>a robotic power claw</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claws</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>25</power>
+            <cooldownTime>1.65</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>RPowerClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>1.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBaseAndroidHD">
+    <defName>RPlasmaClaw</defName>
+    <label>robotic plasma claw</label>
+    <labelNoun>a robotic plasma claw</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claws</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>45</power>
+            <cooldownTime>1.25</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>RPlasmaClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>2</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

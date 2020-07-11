@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Assemblies\Helldrone.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Assemblies\Helldrone.pdb
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Helldrone\obj\Debug\Helldrone.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Helldrone\obj\Debug\Helldrone.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Helldrone\obj\Debug\Helldrone.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HelldroneExtension\Helldrone\obj\Debug\Helldrone.pdb
+C:\Users\xxdma\Desktop\New folder (5)\Assemblies\Helldrone.dll
+C:\Users\xxdma\Desktop\New folder (5)\Assemblies\Helldrone.pdb
+C:\Users\xxdma\Desktop\New folder (5)\Source\obj\Debug\Helldrone.csprojAssemblyReference.cache
+C:\Users\xxdma\Desktop\New folder (5)\Source\obj\Debug\Helldrone.csproj.CoreCompileInputs.cache
+C:\Users\xxdma\Desktop\New folder (5)\Source\obj\Debug\Helldrone.dll
+C:\Users\xxdma\Desktop\New folder (5)\Source\obj\Debug\Helldrone.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>AndroidHellUnit</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[AndroidHellUnitNames] [AndroidHellUnitNumbers]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>AndroidHellUnitNames</keyword>
+          <path>AndroidHU_Names/HUNames</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AndroidHellUnitNumbers</keyword>
+          <path>AndroidHU_Names/NumbersHU</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

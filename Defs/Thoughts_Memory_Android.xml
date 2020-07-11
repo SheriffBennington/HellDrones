@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>HelldroneHiveMindThough</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>Helldrone.ThoughtWorker_HiveMindAT</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>HelldroneHiveMind</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>hive mind</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

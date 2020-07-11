@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Android tiers HellDrone-Extension </name>
+  <author>Atlas</author>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>
+Content made by Helldrone/me and was put together by Atlas, without him this would not be possible.
+
+THIS MOD IS SUBJECT TO CHANGE.
+
+Adds Several items into the game as requested by donator Helldrone
+
+- Robotic Plasma Claw. 
+
+- Robotic Power claw. 
+
+- Robo Fennec. 
+
+- Overcharged Luci pumpx 
+
+- 4 New Research items 
+
+- Hell Unit Android
+
+[Requires Android Tiers to be loaded before this]
+
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1386412863
+
+There may be some details that's slurred or got grammar issues, they will be fixed with time unless aided by comments!
+
+Credits to Atlas for making this real.
+</description>
+  <packageId>Bennington.HellDrone</packageId>
+</ModMetaData>

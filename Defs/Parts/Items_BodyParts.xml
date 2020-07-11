@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartAndroidBase">
+    <defName>RPowerClaw</defName>
+    <label>Robotic power claw</label>
+    <description>A Bionic limb stripped from the neural connectors for humanoid and retooled as a weapon, it consists of a high powered parts with retractable claws on the finger tips, so don't bother bringing a knife. \n\n Can be installed on \n - T4 Androids \n - T5 Androids \n - Hell Units</description>
+    <graphicData>
+      <texPath>Things/Item/Organred</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>secret</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartAndroidBase">
+    <defName>RPlasmaClaw</defName>
+    <label>Robotic plasma claw</label>
+    <description>A upgraded RPC with plasma infused blades, optimized, microsized components for higher peformance and added armor, perfect for your most violent robot. \n\n Can be installed on \n - T4 Androids \n - T5 Androids \n - Hell Units</description>
+    <graphicData>
+      <texPath>Things/Item/Organred</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>secret</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartAndroidBase">
+    <defName>OLuciferiumPump</defName>
+    <label>overcharged mechanite pump</label>
+    <description>This Robotic pump uses repurposed luciferium mechanites that have been reprogrammed to aid in robotic healing. Powerful machines that boost the overal speed and dexterity of the robot but at the price of intense heat generation that could fry the robot from the inside out. \n\n Can be installed on \n - T4 Androids \n - T5 Androids \n - Hell Units</description>
+    <graphicData>
+      <texPath>Things/Item/Organred</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8500</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>secret</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>

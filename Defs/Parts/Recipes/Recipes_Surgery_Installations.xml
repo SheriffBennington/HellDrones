@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="SurgeryAndroid">
+    <defName>InstallOLuciferiumPump</defName>
+    <label>install overcharged mechanite pump</label>
+    <description>Installs an overcharged mechanite pump.</description>
+    <workerClass>MOARANDROIDS.Recipe_InstallArtificialBodyPartAndroid</workerClass>
+    <jobString>Installing overcharged mechanite pump.</jobString>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workAmount>1600</workAmount>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Android4Tier</li>
+      <li>Android5Tier</li>
+      <li>AT_HellUnit</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RepairKitAT</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OLuciferiumPump</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RepairKitAT</li>
+        <li>OLuciferiumPump</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>MRightKidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>OLuciferiumPump</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryAndroid">
+    <defName>InstallRPowerClaw</defName>
+    <label>install robotic power claw</label>
+    <description>Installs an robotic power claw.</description>
+    <workerClass>MOARANDROIDS.Recipe_InstallArtificialBodyPartAndroid</workerClass>
+    <jobString>Installing robotic power claw.</jobString>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workAmount>1600</workAmount>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Android4Tier</li>
+      <li>Android5Tier</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RepairKitAT</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPowerClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RepairKitAT</li>
+        <li>RPowerClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>RightMechanicalShoulder</li>
+      <li>LeftMechanicalShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RPowerClaw</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryAndroid">
+    <defName>InstallRRPlasmaClaw</defName>
+    <label>install robotic plasma claw</label>
+    <description>Installs an robotic plasma claw.</description>
+    <workerClass>MOARANDROIDS.Recipe_InstallArtificialBodyPartAndroid</workerClass>
+    <jobString>Installing robotic plasma claw.</jobString>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workAmount>1600</workAmount>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Android4Tier</li>
+      <li>Android5Tier</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RepairKitAT</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPlasmaClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RepairKitAT</li>
+        <li>RPlasmaClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>RightMechanicalShoulder</li>
+      <li>LeftMechanicalShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RPlasmaClaw</addsHediff>
+  </RecipeDef>
+</Defs>
